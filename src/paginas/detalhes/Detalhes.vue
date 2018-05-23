@@ -79,7 +79,7 @@
 <script>
 import axios from "axios";
 export default {
-  name: "Formulario",
+  name: "Detalhes",
   data() {
     return {
         dados: false
@@ -102,8 +102,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#form-cadastro,
-#btn-enviar {
+#form-cadastro {
   margin-top: 50px;
 }
 </style>
